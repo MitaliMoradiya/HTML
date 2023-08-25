@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <!-- LIST IN HTML -->
+    <!-- 1.unorderd (ul), 
+    2.orderd (ol) -->
+
+
+    <!-- unorderd list -->
+    <ul> 
+     <li> apple </li>
+            <ul>
+                <li>color: red </li>
+                <li>season: winter </li>
+     <li> mango </li>
+     <li> grapes </li>
+    <li> kiwi</li> 
+    <li> banana </li>
+    </ul>
+<!--     
+    orderdlist  -->
+
+
+    <ol>
+    <li> apple </li>
+    <ol>
+        <li>color: red </li>
+        <li>season: winter </li>
+    </ol>
+<li> mango </li>
+<li> grapes </li>
+<li> kiwi</li> 
+<li> banana </li>
+</ol>
+
+<!-- TABLES  -->
+<!-- 
+<tr> table row
+<td> table data
+<th> table header -->
+
+    <table>
+        <tr>
+            <th> name </th>
+            <th> enroll no.</th>
+        </tr>
+
+        <tr>
+            <td> mitali </td>
+            <td>090</td>
+        </tr>
+    </table>
+
+    <!-- CAPTIONS IN TABLE  -->
+
+    <caption> STUDENT DATA </caption>
+
+    <!-- table body & table head -->
+    <!-- <thead> to wrap table </head>
+    <tbody> to wrap table body </tbody> -->
+     
+    <table>
+        <thead>
+            <tr>
+                <th> fname </th>
+                <th> lname </th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>deepika</td>
+                <td>padukon</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Colspan in table -->
+     <!-- Colspan use to same name of column -->
+     <table>
+        <thead>
+            <tr>
+                <th colspan="2"> fname </th>
+              
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>deepika</td>
+                <td>padukon</td>
+            </tr>
+        </tbody>
+    </table>
+
+=======================================================================================================================
+     <!-- FORM IN HTML  -->
+     <!-- forms are used to collect the data from user -->
+        <form action = "/action.php">   <!-- action needs to be performed when a form is submitted-->
+
+            <!-- input tag -->
+            <input type="text" placeholder="enter name">
+            <br>
+            <input type="password" placeholder="enter name">
+            <br>
+
+            <!-- labels -->
+        
+                <input type="radio" value = "class XI" name = "class">XI
+                <input type="radio" value = "class XII" name = "class" >XII
+                <br>
+            
+            <!-- in backend selected options value is given so that value and option name both must be same-->
+            <!-- name is compulsory in radio button because if name is not their than both value can select-->
+
+            <label for = "id1">
+                <input type="radio" value = "class XI" name = "class" id = "id1">XI
+            </label>
+            <label for = "id2">
+                <input type="radio" value = "class XII" name = "class" id = "id2">XII
+            </label>
+            <!-- using label you can select option by click on text -->
+
+            <!-- Class & id  -->
+
+            <div id = "id1" class="group1">
+            </div>
+
+            <div id = "id2" class = "group1">
+            </div>
+
+            <!-- Checkbox -->
+            <!-- it is use for multiple selection -->
+
+            <h4> select your hobby </h4>
+            <label for = "hobby1">
+                <input type = "checkbox" id="h1" value = "dance" name = "Hobby"> Dance <br>
+                <input type = "checkbox" id="h2" value = "singing" name = "Hobby"> Singing <br>
+                <input type = "checkbox" id="h3" value = "reading" name = "Hobby"> Reading <br>
+                <input type = "checkbox" id="h4" value = "travelling" name = "Hobby"> Travelling <br>
+            </label><br>
+
+            <!-- Textarea -->
+            <textarea name = "feedback" id="t1" placeholder="feedback" rows="5" ></textarea> <!-- using rows u can increase the size of the textarea--> <br>
+
+
+            <!-- Select  -->
+
+            <select name = "city" >
+                <option value="delhi"> Delhi </option> 
+                <option value = "mumbai"> mumbai </option>
+                <option value = "surat"> Surat </option>
+            </select>
+            <br>
+
+            <!-- Submit -->
+            <input type = "submit" value = "submit"  >
+
+            <!-- iFrame -->
+            <!-- website inside website -->
+            using iframe u can run you tube video in ur website
+
+            <iframe src = "https://www.wikipedia.org/"></iframe>
+            <br>
+
+            <!-- Video -->
+            <video src="https://youtu.be/RLzC55ai0eo?si=L2ErNsGO6-XlIuwB"></video>
+
+
+</body>
+</html>
